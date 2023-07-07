@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index Page</title>
   </head>
+  <script src="../js/insertionSort.js"></script>
   <body>
     Hello World
     <!-- 
@@ -22,39 +23,45 @@
     Inline Tag <br /><br /><br />
     <button>I am a Clickable Button</button>
     <p></p>
-    <img src="https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.jpg?s=612x612&w=0&k=20&c=hgDeW7sDrgX7hn6mBT5SmDNhcsZ14p5H6KolxRsb70k=" alt="" />
-    <video src="https://www.w3schools.com/html/mov_bbb.mp4" ></video>
+    <img
+      src="https://media.istockphoto.com/id/1144647692/photo/corporate-group-portrait-of-cheering-staff-members.jpg?s=612x612&w=0&k=20&c=hgDeW7sDrgX7hn6mBT5SmDNhcsZ14p5H6KolxRsb70k="
+      alt=""
+    />
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
 
     <table>
-        <thead>
-            <tr>
-                <th>SrNo</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-
-                <td>1</td>
-                <td>Vaibhav</td>
-            </tr>
-            <tr>
-
-                <td>1</td>
-                <td>Vaibhav</td>
-            </tr>
-            <tr>
-
-                <td>1</td>
-                <td rowspan="3">Vaibhav</td>
-            </tr>
-            <tr>
-
-                <td colspan="2">1</td>
-                <td>Vaibhav</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>SrNo</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Vaibhav</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Vaibhav</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td rowspan="3">Vaibhav</td>
+        </tr>
+        <tr>
+          <td colspan="2">1</td>
+          <td>Vaibhav</td>
+        </tr>
+      </tbody>
     </table>
+    <form method="GET" action="http://google.com">
+      <input type="Text" placeholder="Enter Name" />
+      <input type="password" placeholder="Enter Password" />
+      <input type="file" />
+      <input type="email" placeholder="Enter Email address" required/>
+      <input type="submit" />
+    </form>
     <style>
       h1 {
         background: rgb(96, 10, 122);
@@ -63,13 +70,21 @@
       a {
         background: green;
       }
+      input {
+        color: red;
+      }
       button {
         background: olivedrab;
         color: whitesmoke;
         min-height: 10vh;
         border: rgb(173, 184, 23) 2px solid;
       }
-      table,thead,tbody,tr,th,td{
+      table,
+      thead,
+      tbody,
+      tr,
+      th,
+      td {
         border: 1px solid black;
       }
     </style>
